@@ -8,7 +8,7 @@ CXX=g++
 OPT=#-O3
 DEBUG=-g
 CFLAGS=-c $(DEBUG) -Wall $(OPENMP) $(OPT) -I /usr/local/include/opencv/
-LIBS=$(OPENMP) -lhighgui
+LIBS=$(OPENMP) -lopencv_highgui -lopencv_core -lopencv_imgproc
 
 TARGET:$(OBJS)
 	$(CXX) $(LIBS) $(OBJS) -o $(LEVEL)$(TARGET)

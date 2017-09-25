@@ -4,6 +4,8 @@ Simple fluid simulator in C, using libhighgui for visualization.
 
 Might be a nice example for automatic parallelization... :-S
 
+The complicated stuff belongs to Jos Stam
+
 # Compilation
 
 ```
